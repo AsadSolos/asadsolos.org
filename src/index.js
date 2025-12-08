@@ -1,19 +1,6 @@
 export default {
-  async fetch(request, env) {
-    // Try to serve static assets first
-    const url = new URL(request.url);
-    const pathname = url.pathname;
-    
-    // If it's not the root path, try to serve from assets
-    if (pathname !== '/' && env.ASSETS) {
-      const asset = await env.ASSETS.fetch(request);
-      if (asset.status !== 404) {
-        return asset;
-      }
-    }
-
-    // Otherwise, return the under construction page
-    return new Response(getHTML(), {
+  async fetch(request, env, ctx) {
+    return new Response(html, {
       headers: {
         'content-type': 'text/html;charset=UTF-8',
       },
@@ -21,8 +8,7 @@ export default {
   },
 };
 
-function getHTML() {
-  return `<!DOCTYPE html>
+const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -135,4 +121,3 @@ function getHTML() {
     </div>
 </body>
 </html>`;
-}
