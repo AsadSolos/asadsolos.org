@@ -1,0 +1,12 @@
+{
+  "name": "under-construction-site",
+  "version": "1.0.0",
+  "description": "Under construction website",
+  "main": "src/index.js",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.53.0"
+  }
+}
