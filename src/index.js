@@ -113,10 +113,10 @@ const html = `<!DOCTYPE html>
         <h1>UNDER CONSTRUCTION</h1>
         <div class="subtitle">Coming Soon!</div>
         <div class="message">
-            We're working hard to bring you something amazing. 
-            <br>Please check back soon for updates!
+            ny website will be done soon guys just wait :P 
+            <br>Please cya l8r
         </div>
-        <span class="emoji">⏳✨🎨</span>
+        <span class="emoji">😝😝😝</span>
         <div class="signature">- asad</div>
     </div>
 </body>
