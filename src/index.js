@@ -13,7 +13,7 @@ const html = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Site Under Construction</title>
+    <title>asadsolos.org</title>
     <style>
         * {
             margin: 0;
@@ -109,15 +109,15 @@ const html = `<!DOCTYPE html>
 </head>
 <body>
     <div class="container">
-        <div class="construction-icon">🚧</div>
-        <h1>UNDER CONSTRUCTION</h1>
-        <div class="subtitle">Coming Soon!</div>
+        <div class="construction-icon">🛠️</div>
+        <h1>UNDER NEW MANAGEMENT</h1>
+        <div class="subtitle">Coming Soon (still)</div>
         <div class="message">
-            ny website will be done soon guys just wait :P 
-            <br>Please cya l8r
+            yo asad, i changed your front page :P
+            <br>nice repo btw
         </div>
-        <span class="emoji">😝😝😝</span>
-        <div class="signature">- asad</div>
+        <span class="emoji">😎</span>
+        <div class="signature">- nick</div>
     </div>
 </body>
 </html>`;
